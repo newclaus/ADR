@@ -1,4 +1,5 @@
 # Lights, Please
+
 A home electronics giant wants to build a system for home automation: turning lights on and off, locking and unlocking doors, remote camera observation, and future unspecified behavior.
 
 * Users: each system will be sold to consumers (small families), but the company expects to sell thousands of these units in the first three years.
@@ -11,3 +12,28 @@ A home electronics giant wants to build a system for home automation: turning li
     * willing to invest a large sum to get this new line of business off the ground
     * collects data from customers who opt in to gather broader statistics
     * international company
+
+## Бизнес-драйверы
+
+...
+
+## Бизнес-цель
+
+Разработать систему автоматизации умного дома. Требуется простая в управлении система с подключаемыми модулями, распространяемая по всему миру.
+
+## Стейкхолдеры и их потребности
+
+* Клиенты:
+    * Максимально простые установка и использование продукта
+    * Оплата и подключение только нужных модулей
+    * Настройка и управление отдельных модулей
+    * Использование системы через Интернет
+    * Мульти-язычный продукт
+    * Отказ от сбора статистики
+* Разработчики подключаемых модулей:
+    * Создание независимых интегрируемых модулей
+    * Простая интеграция с системой
+    * Возможность расширения системы для интеграции модуля с принципиально новыми функциями (функции, которые не возможно задействовать в рамках текущей реализации системы)
+    * Централизованное управление модулями
+* Команда разработки:
+    * Система не должна зависеть от внутренней реализации подключаемых модулей
